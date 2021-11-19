@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFrameworks>net45;net5.0-windows</TargetFrameworks>
+    <Authors>Lorenzo G Alfaro</Authors>
+    <Description>Functions to work with VB6 Source code and parse it</Description>
+    <Copyright>Copyright (c) 2021 Lorenzo G Alfaro</Copyright>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/LorenzoAlfaro/VB6ParserN.git</RepositoryUrl>
+    <PackageTags>VB6 VB6-Parser</PackageTags>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net5.0'">
@@ -23,6 +29,13 @@
 
   <ItemGroup>
     <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\StringParserN\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
